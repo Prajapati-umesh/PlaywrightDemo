@@ -1,0 +1,4 @@
+users:
+  login_user:
+    username: "testuser"
+    password: "Password123"

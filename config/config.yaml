@@ -1,0 +1,24 @@
+environments:
+  dev:
+    base_url: "https://dev.example.com"
+    api_base_url: "https://api.dev.example.com"
+    browser: "chromium"
+    headless: true
+  qa:
+    base_url: "https://qa.example.com"
+    api_base_url: "https://api.qa.example.com"
+    browser: "chromium"
+    headless: true
+  prod:
+    base_url: "https://www.example.com"
+    api_base_url: "https://api.example.com"
+    browser: "chromium"
+    headless: true
+
+logging:
+  level: "INFO"
+  file: "artifacts/logs/framework.log"
+
+reporting:
+  html_report: "reports/report.html"
+  junit_xml: "reports/junit.xml"
